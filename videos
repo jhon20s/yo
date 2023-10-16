@@ -1,0 +1,194 @@
+funcion ejercicio1 
+	//dado a=3 y b=7, encuentra el valor de y = 2 * a + b - a mod 3 
+	//definimos la variables a, b de omo enteros 
+	//a las variables a, b les asignamos los valores dados en el enunciado 
+	//realizamos el proceso de la operacion 
+	// y = 2 * a + b - a mod 3 
+	// y = 2 * 3 + 7 - 3 mod 3 
+	// y = 6 + 7 - 0 
+	// y = 13
+	//finalmente mostramos el resultado colocando la instruccion "escribir"
+	Definir a, b, resul Como Entero
+	a=3; b=7; resul=0
+	resul = 2 * a + b - a mod 3 
+	Escribir resul 
+FinFuncion
+
+
+Funcion ejercicio2 
+	//si a=10 y b=4, calcula el valor de z = a * b + 3 mod a + b 
+	//definimos las variables a, b como enteros 
+	//a las variables a, b les asignamos los valores dados en el enunciado 
+	//realizamos el proceso de la operacion 
+	//z = a * b + 3 mod a + b 
+	//z = 10 * 4 + 3 mod 10 + 4 
+	//z = 40 + 3 + 4 
+	//z = 47
+	//finalmente mostramos el resultado colocando la instruccion "Escribir"
+	Definir a, b, resul Como Entero
+	a=10; b=4; resul=0
+	resul = a * b + 3 mod a + b
+	escribir resul 
+FinFuncion
+
+funcion ejercicio3
+	//con a=6 y b=2, determina el valor de w = a - b + 2 * a mod b
+	//definimos las variables a, b como enteros 
+	//a las variables a, b les asignamos los valores dados en el enunciado 
+	//realizamos la operacion de la variable w
+	//w = a - b + 2 * a mod b 
+	//w = 6 - 2 + 2 * 6 mod 2
+	//w = 6 - 2 + 12 mod 2 
+	//w =  6 - 2 + 0 
+	//w = 4 
+	//finalmente mostramos el resultado colocando la instruccion "Escribir"
+	definir a, b, resul Como Entero
+	a=6; b=2; resul=0 
+	resul = a - b + 2 * a mod b
+	Escribir resul
+FinFuncion
+
+funcion ejercicio4
+	//para a=8 y b=5, encuentra el valor de v = 2 * b + a div 2 + 4 * b mod a
+	//definimos las variables a, b como enteros
+	//a las variables a, b las asiganmos les valores dados en el enunciado 
+	//realizamos la operacion de la variable v
+	//v= 2 * b + a div 2 + 4 * b mod a 
+	//v= 2 * 5 + 8 div 2 + 4 * 5 mod 8
+	//v= 10 + 4 + 4 * 5 
+	//v= 10 + 4 + 20
+	//v= 34
+	//finalmente mostramos el resultado colocando la instruccion "Escribir"
+	definir a, b, resul como entero
+	a=8; b=5; resul=0
+	resul = 2 * b + a / 2 + 4 * b mod a
+	escribir resul
+FinFuncion
+
+funcion ejercicio5
+	//Si a=12 y b=9, calcula el valor de u = b - a + 3 * a mod b.
+	//definimos las variables a, b como enteros 
+	//a las variables a, b le asignamos los valores dados en el enunciado 
+	//realizamos la operacion de la variable u
+	//u= b - a + 3 * a mod b 
+	//u= 9 - 12 + 3 * 12 mod 9 
+	//u= 9 - 12 + 36 mod 9
+	//u= 3 + 0 
+	//u= 3
+	//finalmente mostramos el resultado colocando la instruccion "esribir"
+	definir a, b, resul Como Entero
+	a= 12; b= 3; resul=0
+	resul = b - a + 3 * a mod b 
+	escribir resul
+FinFuncion
+
+funcion ejercicio6
+	//(5 + 3 * 2) + 9 > 3 * 5 * 14 % 3
+	//definir las variables i, n la cual guardaran el resultado de la operacion 
+	//igualamos i, n a la operacion para que lo guarde como algo simplificado 
+	//el problema se resuelve 
+	//usando el comando escribir hacemos que nos refleje en la interfaz 
+	//(5 + 3 * 2) + 9 > 3 * 5 * 14 % 3
+	//i= (5 + 3 * 2) + 9
+	//i= 5 + 6 + 9
+	//i= 20
+	//n= 3 * 5 * 14 % 3
+	//n= 15 * 14 % 3
+	//n= 42
+	Definir i, n, resul Como entero
+	i= (5 + 3 * 2) +9
+	n= 3 * 5 * 14 % 3
+	si i > n Entonces
+		escribir "i es mayor que n"; 
+	SiNo
+		escribir "n es menor que i"; 
+		escribir resul
+		
+	FinSi
+FinFuncion
+
+funcion ejercicio7
+	//2 (4 - 10 + 8)/2 36 *(1/2)
+	//definimos las variables i, n la cual guardaran de la operacion 
+	//igualamos i, n a la operacion para que lo guarde como algo simplificado 
+	//el problema se resuelve 
+	//usando el comando escribir hacemos que nos refleje en la interfaz
+	//2 (4 - 10 + 8)/2 36 *(1/2)
+	//i= 2 *(4 - 10 + 8)
+	//i= 8 - 10 + 8
+	//i= 6
+	//n= 2 * 36 *(1/2)
+	//n= 36
+	definir i, n, resul Como real
+	i= 2 * (4 - 10 + 8)
+	n= 2 * 36 * (1 / 2) 
+	resul= i / n 
+	escribir "el resultado es " , Resul 
+FinFuncion
+
+funcion ejercicio8
+	//260 / 12 + 54 % 3 - 85 % 7
+	//definir la variable h la cual guardara el resultado de la operacion
+	//igualamos h a la operacion para que lo guarde como algo simplificado 
+	//el problema se resuelve 
+	//usando el comando escribir hacemos que nos refleja la interfaz 
+	//260 / 12 + 54 % 3 - 85 % 7
+	//21,66666666666 + 54 % 3 - 85 % 7
+	//21,66666666666 + 0 - 85 % 7
+	//21,66666666666 + 0 - 1
+	//21,66666666666 - 1
+	//20,66666666666
+	definir h como real 
+	h= 260 / 12 + 54 % 3 - 85 % 7
+	Escribir h
+FinFuncion
+
+funcion ejercicio9
+	//(48 < 2 * 3) | | (2 * 7 < 12)
+	//definir verdadero o falso de la operacion 
+	//el problema se resuelve 
+	//usando el comando escrubir hacemos que nos refleja la interfaz 
+	//(48 < 2 * 3) | | (2 * 7 < 12)
+	//(48 < 6 ) | | (2 * 7 < 12)
+	//falso | | (2 * 7 < 12)
+	//falso | | (14< 12)
+	//falso | | falso 
+    // falso
+	definir resul Como Logico
+	resultado= (48 < 2 * 3) |  (2 * 7 < 12)
+	Escribir resultado
+FinFuncion
+
+funcion ejercicio10
+	//((8 > 2) | | (932 < 23)) && 4 == 2
+	//definir verdadero o falso de la operacion 
+	//el problema se resuelve 
+	//usando el comando escribir hacemos que nos refleja la interfaz 
+	//((8 > 2) | | (932 < 23)) && 4 == 2
+	// verdadero | | (932 < 23) ) &&  4 == 2
+	// verdadero | | falso ) && 4 ==2
+	// verdadero | | && 4 == 2
+	// verdadero  &&  falso 
+	//  falso 
+	definir resultado Como Logico
+	resultado = ((8 > 2) |  (932 < 23) ) & 4 == 2
+	Si resultado Entonces
+		Escribir "expresion verdadera "
+	SiNo
+		Escribir "expreion falsa "
+		
+	Fin Si
+FinFuncion
+
+Algoritmo tarea1
+	ejercicio1
+	ejercicio2
+	ejercicio3
+	ejercicio4
+	ejercicio5
+	ejercicio6
+	ejercicio7
+	ejercicio8
+	ejercicio9
+	ejercicio10
+FinAlgoritmo
